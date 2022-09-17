@@ -1,0 +1,678 @@
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-20 sm:px-2 sm:py-24 lg:px-4 lg:-mt-28">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-10 gap-x-8 px-4 lg:max-w-none lg:grid-cols-4">
+      <div class="text-center sm:flex sm:text-left lg:block lg:text-center border rounded-md py-10 px-2 sm:px- shadow-xl">
+        <div class="sm:flex-shrink-0">
+          <div class="flow-root">
+            <img class="mx-auto h-40 w-50 rounded-md" src="../dist/img/two-teachers.png" alt="Two teachers">          
+          </div>
+        </div>
+        <div class="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
+          <h3 class="text-sm font-medium inline-flex text-white border rounded-full py-2 px-2 bg-cyan-700">English</h3>
+          <p class="mt-2 text-sm text-gray-500">Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.</p>
+          <div class="lg:col-span-2">
+            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+              <li>
+                <div class="flex items-center space-x-4 lg:space-x-2">
+                  <img class="h-8 w-8 rounded-full lg:h-8 lg:w-8" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="text-xs text-cyan-700">Micheal Doe</h3>
+                  </div>
+                </div>
+              </li>
+              
+              <ul role="list" class="flex justify-center space-x-5 space-y-1">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <p>202</p>
+                </li>
+              </ul>
+              <!-- More people... -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center sm:flex sm:text-left lg:block lg:text-center border rounded-md py-10 px-2 shadow-xl">
+        <div class="sm:flex-shrink-0">
+          <div class="flow-root">
+            <img class="mx-auto h-40 w-50 rounded-md" src="../dist/img/two-teachers.png" alt="Two teachers">          
+          </div>
+        </div>
+        <div class="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
+          <h3 class="text-sm font-medium inline-flex text-white border rounded-full py-2 px-2 bg-cyan-700">Mathematics</h3>
+          <p class="mt-2 text-sm text-gray-500">Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.</p>
+          <div class="lg:col-span-2">
+            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+              <li>
+                <div class="flex items-center space-x-4 lg:space-x-2">
+                  <img class="h-8 w-8 rounded-full lg:h-8 lg:w-8" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="text-xs text-cyan-700">James Grace</h3>
+                  </div>
+                </div>
+              </li>
+              
+              <ul role="list" class="flex justify-center space-x-5 space-y-1">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <p>500</p>
+                </li>
+              </ul>
+              <!-- More people... -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center sm:flex sm:text-left lg:block lg:text-center border rounded-md py-10 px-2 shadow-xl">
+        <div class="sm:flex-shrink-0">
+          <div class="flow-root">
+            <img class="mx-auto h-40 w-50 rounded-md" src="../dist/img/two-teachers.png" alt="Two teachers">            
+          </div>
+        </div>
+        <div class="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
+          <h3 class="text-sm font-medium inline-flex text-white border rounded-full py-2 px-2 bg-cyan-700">Economics</h3>
+          <p class="mt-2 text-sm text-gray-500">Look how fast that cart is going. What does this mean for the actual experience? I don&#039;t know.</p>
+          <div class="lg:col-span-2">
+            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+              <li>
+                <div class="flex items-center space-x-4 lg:space-x-2">
+                  <img class="h-8 w-8 rounded-full lg:h-8 lg:w-8" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="text-xs text-cyan-700">Shola Yemi</h3>
+                  </div>
+                </div>
+              </li>
+              
+              <ul role="list" class="flex justify-center space-x-5 space-y-1">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <p>300</p>
+                </li>
+              </ul>
+              <!-- More people... -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center sm:flex sm:text-left lg:block lg:text-center border rounded-md py-10 px-2 shadow-xl">
+        <div class="sm:flex-shrink-0">
+          <div class="flow-root">
+            <img class="mx-auto h-40 w-50 rounded-md" src="../dist/img/two-teachers.png" alt="Two teachers">            
+          </div>
+        </div>
+        <div class="mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0">
+          <h3 class="text-sm font-medium inline-flex text-white border rounded-full py-2 px-2 bg-cyan-700">Biology</h3>
+          <p class="mt-2 text-sm text-gray-500">Look how fast that cart is going. What does this mean for the actual experience? I don&#039;t know.</p>
+          <div class="lg:col-span-2">
+            <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
+              <li>
+                <div class="flex items-center space-x-4 lg:space-x-2">
+                  <img class="h-8 w-8 rounded-full lg:h-8 lg:w-8" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  <div class="space-y-1 text-lg font-medium leading-6">
+                    <h3 class="text-xs text-cyan-700">Wumi Ade</h3>
+                  </div>
+                </div>
+              </li>
+              
+              <ul role="list" class="flex justify-center space-x-5 space-y-1">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-300">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <p>150</p>
+                </li>
+              </ul>
+              <!-- More people... -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+ <div>
+    <div class="relative items-center -mb-56">
+
+      
+      <div class="mx-auto max-w-7xl px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="text-center">
+      <button type="button" class="relative w-1/2 cursor-default border border-cyan-300 bg-white py-2 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+        <span class="block truncate text-bold pl-2">Is this thing on?</span>
+        <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center">
+          <!-- Heroicon name: mini/chevron-up-down -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 border bg-gray-200 rounded-full">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>        
+        </span>
+      </button>
+
+      <!--
+        Select popover, show/hide based on select state.
+
+        Entering: ""
+          From: ""
+          To: ""
+        Leaving: "transition ease-in duration-100"
+          From: "opacity-100"
+          To: "opacity-0"
+      -->
+      <!-- <ul class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm" tabindex="-1" role="listbox" aria-labelledby="listbox-label" aria-activedescendant="listbox-option-3"> -->
+        <!--
+          Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
+
+          Highlighted: "text-white bg-indigo-600", Not Highlighted: "text-gray-900"
+        -->
+        <!-- <li class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9" id="listbox-option-0" role="option"> -->
+          <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
+          <!-- <span class="font-normal block truncate">Wade Cooper</span> -->
+
+          <!--
+            Checkmark, only display for selected option.
+
+            Highlighted: "text-white", Not Highlighted: "text-indigo-600"
+          -->
+          <!-- <span class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"> -->
+            <!-- Heroicon name: mini/check -->
+            <!-- <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg> -->
+          <!-- </span>
+        </li> -->
+
+        <!-- More items... -->
+      </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div>
+    <div class="relative items-center mt-1">
+
+      <div class="mx-auto max-w-7xl px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="text-center">
+      <button type="button" class="relative w-1/2 cursor-default border border-cyan-300 bg-white py-2 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+        <span class="block truncate text-bold pl-2">Is this thing on?</span>
+        <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center">
+          <!-- Heroicon name: mini/chevron-up-down -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 border bg-gray-200 rounded-full">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>        
+        </span>
+      </button>
+
+      <!--
+        Select popover, show/hide based on select state.
+
+        Entering: ""
+          From: ""
+          To: ""
+        Leaving: "transition ease-in duration-100"
+          From: "opacity-100"
+          To: "opacity-0"
+      -->
+      <!-- <ul class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm" tabindex="-1" role="listbox" aria-labelledby="listbox-label" aria-activedescendant="listbox-option-3"> -->
+        <!--
+          Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
+
+          Highlighted: "text-white bg-indigo-600", Not Highlighted: "text-gray-900"
+        -->
+        <!-- <li class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9" id="listbox-option-0" role="option"> -->
+          <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
+          <!-- <span class="font-normal block truncate">Wade Cooper</span> -->
+
+          <!--
+            Checkmark, only display for selected option.
+
+            Highlighted: "text-white", Not Highlighted: "text-indigo-600"
+          -->
+          <!-- <span class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"> -->
+            <!-- Heroicon name: mini/check -->
+            <!-- <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg> -->
+          <!-- </span>
+        </li> -->
+
+        <!-- More items... -->
+      </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div>
+    <div class="relative items-center -mt-40">
+      <div class="mx-auto max-w-7xl px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="text-center">
+      <button type="button" class="relative w-1/2 cursor-default border border-cyan-300 bg-white py-2 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+        <span class="block truncate text-bold pl-2">Is this thing on?</span>
+        <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center">
+          <!-- Heroicon name: mini/chevron-up-down -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 border bg-gray-200 rounded-full">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>        
+        </span>
+      </button>
+
+      <!--
+        Select popover, show/hide based on select state.
+
+        Entering: ""
+          From: ""
+          To: ""
+        Leaving: "transition ease-in duration-100"
+          From: "opacity-100"
+          To: "opacity-0"
+      -->
+      <!-- <ul class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm" tabindex="-1" role="listbox" aria-labelledby="listbox-label" aria-activedescendant="listbox-option-3"> -->
+        <!--
+          Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
+
+          Highlighted: "text-white bg-indigo-600", Not Highlighted: "text-gray-900"
+        -->
+        <!-- <li class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9" id="listbox-option-0" role="option"> -->
+          <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
+          <!-- <span class="font-normal block truncate">Wade Cooper</span> -->
+
+          <!--
+            Checkmark, only display for selected option.
+
+            Highlighted: "text-white", Not Highlighted: "text-indigo-600"
+          -->
+          <!-- <span class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"> -->
+            <!-- Heroicon name: mini/check -->
+            <!-- <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg> -->
+          <!-- </span>
+        </li> -->
+
+        <!-- More items... -->
+      </ul>
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="relative items-center -mt-40">
+
+      <div class="mx-auto max-w-7xl px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="text-center">
+      <button type="button" class="relative w-1/2 cursor-default border border-cyan-300 bg-white py-2 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+        <span class="block truncate text-bold pl-2">Is this thing on?</span>
+        <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center">
+          <!-- Heroicon name: mini/chevron-up-down -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 border bg-gray-200 rounded-full">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>        
+        </span>
+      </button>
+
+      <!--
+        Select popover, show/hide based on select state.
+
+        Entering: ""
+          From: ""
+          To: ""
+        Leaving: "transition ease-in duration-100"
+          From: "opacity-100"
+          To: "opacity-0"
+      -->
+      <!-- <ul class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm" tabindex="-1" role="listbox" aria-labelledby="listbox-label" aria-activedescendant="listbox-option-3"> -->
+        <!--
+          Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
+
+          Highlighted: "text-white bg-indigo-600", Not Highlighted: "text-gray-900"
+        -->
+        <!-- <li class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9" id="listbox-option-0" role="option"> -->
+          <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
+          <!-- <span class="font-normal block truncate">Wade Cooper</span> -->
+
+          <!--
+            Checkmark, only display for selected option.
+
+            Highlighted: "text-white", Not Highlighted: "text-indigo-600"
+          -->
+          <!-- <span class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"> -->
+            <!-- Heroicon name: mini/check -->
+            <!-- <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg> -->
+          <!-- </span>
+        </li> -->
+
+        <!-- More items... -->
+      </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- This example requires Tailwind CSS v2.0+ -->
+  <div class="bg-white">
+    <header>
+      <div class="relative bg-white">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+          <div class="flex justify-start lg:w-0 lg:flex-1">
+            <a href="#">
+              <span class="sr-only">Your Company</span>
+              <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            </a>
+          </div>
+          <div class="-my-2 -mr-2 md:hidden">
+            <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+              <span class="sr-only">Open menu</span>
+              <!-- Heroicon name: outline/bars-3 -->
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+          <nav class="hidden space-x-10 md:flex">
+            <div class="relative">
+   
+            </div>
+  
+            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Learners</a>
+  
+            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Institutions</a>
+          </nav>
+          <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+            <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">Sign in</a>
+            <a href="#" class="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">Sign up</a>
+          </div>
+        </div>
+  
+        <!--
+          Mobile menu, show/hide based on mobile menu state.
+  
+          Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+          Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+        <div class="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden">
+          <div class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+            <div class="px-5 pt-5 pb-6">
+              <div class="flex items-center justify-between">
+                <div>
+                  <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
+                </div>
+                <div class="-mr-2">
+                  <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span class="sr-only">Close menu</span>
+                    <!-- Heroicon name: outline/x-mark -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                <nav class="grid grid-cols-1 gap-7">
+                  <a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+                    <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-600 text-white">
+                      <!-- Heroicon name: outline/inbox -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+                      </svg>
+                    </div>
+                    <div class="ml-4 text-base font-medium text-gray-900">Inbox</div>
+                  </a>
+  
+                  <a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+                    <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-600 text-white">
+                      <!-- Heroicon name: outline/chat-bubble-bottom-center-text -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                      </svg>
+                    </div>
+                    <div class="ml-4 text-base font-medium text-gray-900">Messaging</div>
+                  </a>
+  
+                  <a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+                    <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-600 text-white">
+                      <!-- Heroicon name: outline/chat-bubble-left-right -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                      </svg>
+                    </div>
+                    <div class="ml-4 text-base font-medium text-gray-900">Live Chat</div>
+                  </a>
+  
+                  <a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+                    <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-600 text-white">
+                      <!-- Heroicon name: outline/question-mark-circle -->
+                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                      </svg>
+                    </div>
+                    <div class="ml-4 text-base font-medium text-gray-900">Knowledge Base</div>
+                  </a>
+                </nav>
+              </div>
+            </div>
+            <div class="py-6 px-5">
+              <div class="grid grid-cols-2 gap-4">
+                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Pricing</a>
+  
+                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Partners</a>
+  
+                <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">Company</a>
+              </div>
+              <div class="mt-6">
+                <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">Sign up</a>
+                <p class="mt-6 text-center text-base font-medium text-gray-500">
+                  Existing customer?
+                  <a href="#" class="text-gray-900">Sign in</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <main>
+      <div>
+        <!-- Hero card -->
+        <div class="relative">
+          <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+              <div class="absolute inset-0">
+                <img class="h-full w-full object-cover" src="../dist/img/jumpingstudents.png" alt="Students jumping">
+                <div class="absolute inset-0 bg-indigo-700 mix-blend-multiply"></div>
+              </div>
+              <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                  <span class="block text-white">Take control of your</span>
+                  <span class="block text-indigo-200">customer support</span>
+                </h1>
+                <p class="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                  <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                    <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-indigo-700 shadow-sm hover:bg-indigo-50 sm:px-8">Get started</a>
+                    <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-indigo-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Live demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Logo cloud -->
+        <div class="bg-gray-100">
+          <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-base font-semibold text-gray-500">Trusted by over 5 very average small businesses</p>
+            <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+              </div>
+              <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
+              </div>
+              <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- More main page content here... -->
+    </main>
+  </div>
+    <!-- Search section -->
+    <div class="flex flex-1 justify-center lg:justify-center">
+        <div class="w-1/2 px-2 lg:px-6 pb-4">
+          <label for="search" class="sr-only">Search projects</label>
+          <div class="relative text-indigo-200 focus-within:text-gray-400">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <!-- Heroicon name: mini/magnifying-glass -->
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" aria-hidden="true">
+                <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <input id="search" name="search" class="block w-full shadow-md rounded-full border border-transparent bg-gray-300 py-3 pl-10 pr-3 leading-5 text-cyan-200 placeholder-white focus:bg-white focus:text-gray-900 focus:placeholder-gray-400 focus:outline-none focus:ring-0 sm:text-sm lg:text-md" placeholder="Search" type="search">
+          </div>
+        </div>
+      </div>
+  
+       
+<div class="relative overflow-hidden pt-16 pb-32">
+  <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
+  <div class="relative">
+    <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+      <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+        <div>
+          <div>
+            <span class="flex h-12 w-12 items-center justify-center rounded-md">
+              <!-- Heroicon name: outline/inbox -->
+            </span>
+          </div>
+          <div class="mt-6 ml-24">
+              <div>
+                  <div class="mt-6">
+                    <h2 class="text-3xl py-4 font-bold tracking-tight text-gray-700">Prepare for A with our helpful tools</h2>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Video lessons 
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Learn while offline 
+                    </p>
+                    <p class="mt-2 flex items-center text- text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Enjoy lesson summaries
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Interact with other students
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                     Ask questions in lectures
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Timely progress report
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Free question practice
+                    </p>
+                    <p class="mt-2 flex items-center text-lg text-gray-500">
+                      <!-- Heroicon name: mini/check-circle -->
+                      <svg class="mr-1.5 h-8 w-8 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                      </svg>
+                      Keynotes
+                    </p>
+
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="mt-8  pt-6">
+          <blockquote>
+            
+            <footer class="mt-3">
+              <div class="flex items-center space-x-3">
+                
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <div class="mt-12 sm:mt-16 lg:mt-0">
+        <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+          <img class="w-full lg:mr-10 lg:absolute lg:h-full lg:w-auto lg:max-w-none" src="../dist/img/brilliantstudens.png" alt="Boys and girls">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
